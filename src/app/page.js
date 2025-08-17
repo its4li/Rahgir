@@ -1,11 +1,11 @@
 'use client'
 
 import { useState } from 'react'
-import AddressForm from '@/components/AddressForm'
-import TransactionsTable from '@/components/TransactionsTable'
-import NetworkSelector from '@/components/NetworkSelector'
-import LoadingSpinner from '@/components/LoadingSpinner'
-import StatsCards from '@/components/StatsCards'
+import AddressForm from '../components/AddressForm'
+import TransactionsTable from '../components/TransactionsTable'
+import NetworkSelector from '../components/NetworkSelector'
+import LoadingSpinner from '../components/LoadingSpinner'
+import StatsCards from '../components/StatsCards'
 
 const NETWORKS = {
   ethereum: { name: 'اتریوم', chainId: 1, color: 'bg-blue-500', currency: 'ETH', explorer: 'https://etherscan.io' },
